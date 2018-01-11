@@ -1,0 +1,28 @@
+package fr.polytech.apo;
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.awt.FlowLayout;
+
+
+public class FenetreRegle extends Fenetre{
+	
+	public FenetreRegle() throws IOException{
+		//définir une image de fond
+		/*BufferedImage image = ImageIO.read(new File ("Fond2.jpg"));
+		this.setContentPane(new ImageFond(image));
+		//pour le layout
+		getContentPane().setLayout(new FlowLayout());
+		//on centre la fenêtre
+		this.setLocationRelativeTo(null);
+		//la rendre visible
+		setVisible(true);
+		*/
+		
+	}
+
+}
